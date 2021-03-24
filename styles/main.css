@@ -1,8 +1,9 @@
-.imageandlogo {
+.maingoogleimage {
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding-top: 10%;
+    padding-bottom: 30px;
 }
 
 .navigation {
@@ -51,4 +52,18 @@
     color: white;
     width: 70px;
     justify-content: center;
+}
+
+
+
+.magniglass {
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+
+.microphone {
+    display: flex;
+    width: 25px;
+    height: 25px;
 }
