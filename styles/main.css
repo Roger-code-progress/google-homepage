@@ -1,0 +1,54 @@
+.imageandlogo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10%;
+}
+
+.navigation {
+    font-family: 'arial', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.biggernavigation {
+    margin: 10px;
+}
+
+#gmail {
+    color: rgba(0, 0, 0, 87);
+    display: flex;
+    padding: 10px;
+    margin-top: 3px;    
+    padding-right: 5px;
+}
+
+#images {
+    color: rgba(0, 0, 0, 87);
+    display: flex;
+    padding: 10px;
+    margin-top: 3px;
+    padding-right: 10px;
+}
+
+#waffle {
+    display: flex;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    padding-right: 20px;
+}
+
+#signin {
+    display: flex;
+    padding: 10px;
+    margin-top: 3px;
+    background-color: #2b7de9;
+    border-radius: 4px;
+    color: white;
+    width: 70px;
+    justify-content: center;
+}
