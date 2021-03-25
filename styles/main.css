@@ -26,6 +26,7 @@
     padding: 10px;
     margin-top: 3px;    
     padding-right: 5px;
+    cursor: pointer;
 }
 
 #gmail:hover {
@@ -38,6 +39,7 @@
     padding: 10px;
     margin-top: 3px;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 #images:hover {
@@ -50,6 +52,7 @@
     height: 20px;
     width: 20px;
     padding-right: 20px;
+    cursor: pointer;
 }
 
 #waffle:hover {
@@ -66,6 +69,7 @@
     color: white;
     width: 70px;
     justify-content: center;
+    cursor: pointer;
 }
 
 #signin:hover {
@@ -123,4 +127,130 @@
     height: 21.452515px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.searchandluckybuttoncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.searchandluckybutton {
+    display: flex;
+    flex-direction: row;
+    padding-top: 28px;
+}
+
+#GoogleSearch {
+    display: flex;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#GoogleSearch:hover {
+    box-shadow:0px 0px 2px rgb(170, 165, 165);
+}
+
+#ImFeelingLucky {
+    display: flex;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#ImFeelingLucky:hover {
+    box-shadow:0px 0px 2px rgb(170, 165, 165);
+}
+
+.ChineseMalayTamilcontainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ChineseMalayTamil {
+    display: flex;
+    font-size: small;  
+}
+
+#chinese, #malay, #tamil {
+    cursor: pointer;
+    color: blue;
+    padding-left: 10px;
+}
+
+#chinese:hover, #malay:hover, #tamil:hover {
+    text-decoration: underline;
+}
+
+.countrycontainer {
+    display:flex;
+    flex-direction: column;
+    font-family: arial, sans-serif;
+    color:rgba(0, 0, 0, 87);
+    width: 100%;
+    bottom: 0%;
+    position:absolute;
+}
+
+.country {
+    background-color: rgb(235, 235, 235);
+    padding: 15px 30px;
+}
+
+.origin {
+    color:rgb(153, 153, 153)
+}
+
+.line {
+    background-color: rgb(224, 224, 224);
+    padding: 1px;
+}
+
+.otherinfo {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+}
+
+.belowcountryleft {
+    display: flex;
+    padding: 15px 30px;
+    color:rgb(153, 153, 153)
+}
+
+#AABH1 {
+    margin-left: 10px;
+    cursor: pointer;
+} 
+
+#AABH2, #AABH3, #AABH4 {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.belowcountryright {
+    display: flex;
+    padding: 15px 10px;
+    color:rgb(153, 153, 153)
+}
+
+#PTS1, #PTS2, #PTS3 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#AABH1:hover, #AABH2:hover, #AABH3:hover, #AABH4:hover, #PTS1:hover, #PTS2:hover, #PTS3:hover {
+    text-decoration: underline;
 }
