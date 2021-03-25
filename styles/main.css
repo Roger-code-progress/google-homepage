@@ -119,6 +119,8 @@
     margin-left: 10px;
     text-align: left;
     width: 100%;
+    background-color: transparent;
+    outline: none;
 }
 
 #microphone {
